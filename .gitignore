@@ -41,3 +41,8 @@ out/
 *.dis
 *.elf
 *.map
+
+# Ignore everything in lib/ except FreeRTOS-Kernel
+lib/*
+!lib/FreeRTOS-Kernel/
+
