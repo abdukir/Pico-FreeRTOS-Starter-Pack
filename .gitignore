@@ -42,7 +42,8 @@ out/
 *.elf
 *.map
 
-# Ignore everything in lib/ except FreeRTOS-Kernel
-lib/*
+
+# Allow FreeRTOS-Kernel submodule
 !lib/FreeRTOS-Kernel/
+
 
