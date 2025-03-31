@@ -26,8 +26,8 @@ project(Pico-FreeRTOS-Starter C CXX ASM)
 # Initialize the Raspberry Pi Pico SDK
 pico_sdk_init()
 
-# Set FreeRTOS kernel path
-SET(FREERTOS_KERNEL_PATH "C:/Users/Abdullah/.pico-sdk/sdk/FreeRTOS-Kernel")
+# Set FreeRTOS kernel path to local directory
+SET(FREERTOS_KERNEL_PATH "${CMAKE_CURRENT_SOURCE_DIR}/lib/FreeRTOS-Kernel")
 include(${FREERTOS_KERNEL_PATH}/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake)
 
 # Add main executable
