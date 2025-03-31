@@ -3,4 +3,6 @@ Easily start working on Raspberry Pico with FreeRTOS on the new VSCode Extension
 
 - Install VSCode extension for Pico [Github](https://github.com/raspberrypi/pico-vscode)
 - Download and unzip the latest [FreeRTOS-Kernel](https://github.com/FreeRTOS/FreeRTOS-Kernel/releases) to your pico sdk folder
-    - c:\users\"youruser"\.pico-sdk\sdk\FreeRTOS-Kernel
+    - "c:\users\youruser\.pico-sdk\sdk\FreeRTOS-Kernel"
+
+#Todo - Move it to the project folder instead of requiring it inside of the sdk
